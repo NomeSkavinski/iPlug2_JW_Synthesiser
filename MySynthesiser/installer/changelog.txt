@@ -1,4 +1,5 @@
 MySynthesiser changelog
 www.acmeinc.com
 
+08/11/2020 - v0.3.0 Task 3 Complete
 00/00/0000 - v0.1.0 initial release
