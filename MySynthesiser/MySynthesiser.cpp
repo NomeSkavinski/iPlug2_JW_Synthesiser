@@ -94,6 +94,8 @@ MySynthesiser::MySynthesiser(const InstanceInfo &info)
     // Master controls
 
     /* TASK_03 -- insert some code here! */
+    pGraphics->AttachControl(new ITextControl(masterArea.GetCentredInside(100).GetTranslated(0, -70), "Volume"));
+    pGraphics->AttachControl(new ICaptionControl(masterArea.GetCentredInside(100).GetTranslated(0, 70), kParamGain));
 
     pGraphics->AttachControl(new ISVGKnobControl(masterArea.GetCentredInside(100), knobSVG, kParamGain)); /* TASK_02 */
 
