@@ -100,7 +100,7 @@ MySynthesiser::MySynthesiser(const InstanceInfo &info)
     // Keyboard
     pGraphics->AttachControl(new IVKeyboardControl(keyboardArea, 36, 64), kCtrlTagKeyboard);
 
-    pGraphics->AttachControl(new IVLabelControl(logoArea, "MySynthesiser", DEFAULT_STYLE.WithDrawFrame(false).WithValueText(IText(50., "Logo"))));
+    pGraphics->AttachControl(new IVLabelControl(logoArea, "MySynthesiser", DEFAULT_STYLE.WithDrawFrame(false).WithValueText(IText(42., "Logo"))));
 
     pGraphics->SetQwertyMidiKeyHandlerFunc([pGraphics](const IMidiMsg &msg) { pGraphics->GetControlWithTag(kCtrlTagKeyboard)->As<IVKeyboardControl>()->SetNoteFromMidi(msg.NoteNumber(), msg.StatusMsg() == IMidiMsg::kNoteOn); });
   };

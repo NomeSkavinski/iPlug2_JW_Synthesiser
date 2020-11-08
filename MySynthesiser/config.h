@@ -1,7 +1,7 @@
 #define PLUG_NAME "MySynthesiser"
 #define PLUG_MFR "John_Waring"
-#define PLUG_VERSION_HEX 0x00000300
-#define PLUG_VERSION_STR "0.3.0"
+#define PLUG_VERSION_HEX 0x00000301
+#define PLUG_VERSION_STR "0.3.1"
 #define PLUG_UNIQUE_ID '1NcM'
 #define PLUG_MFR_ID 'Acme'
 #define PLUG_URL_STR "https://iplug2.github.io"
